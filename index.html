@@ -1,0 +1,182 @@
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Freunde 💙</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            min-height: 100vh;
+            padding: 30px 0;
+        }
+
+        .container {
+            background: white;
+            width: 90%;
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .intro {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .frage {
+            background: #f4f6f8;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 12px;
+        }
+
+        .frage h3 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 90px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 10px;
+            background: #0078ff;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #005fcc;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💙 Freunde-Fragen</h1>
+
+    <p class="intro">
+        Beantworte ein paar Fragen 😊
+    </p>
+
+    <form action="https://formsubmit.co/delkhoshazhassan@gmail.com"
+          method="POST">
+
+        <!-- Einstellungen -->
+        <input type="hidden" name="_subject"
+               value="Neue Antworten von deiner Freunde-Seite 💙">
+
+        <input type="hidden" name="_captcha"
+               value="false">
+
+        <input type="hidden" name="_template"
+               value="table">
+
+        <!-- Name -->
+        <div class="frage">
+            <h3>👤 Wie heißt du?</h3>
+            <input type="text"
+                   name="Name"
+                   placeholder="Dein Name"
+                   required>
+        </div>
+
+        <!-- Frage 1 -->
+        <div class="frage">
+            <h3>😊 Wie geht es dir?</h3>
+            <input type="text"
+                   name="Wie geht es dir"
+                   placeholder="Deine Antwort..."
+                   required>
+        </div>
+
+        <!-- Frage 2 -->
+        <div class="frage">
+            <h3>📅 Wie war dein Tag?</h3>
+            <textarea name="Wie war dein Tag"
+                      placeholder="Erzähl mir davon..."
+                      required></textarea>
+        </div>
+
+        <!-- Frage 3 -->
+        <div class="frage">
+            <h3>🎮 Was machst du gerade?</h3>
+            <input type="text"
+                   name="Was machst du gerade"
+                   placeholder="Was machst du gerade?">
+        </div>
+
+        <!-- Frage 4 -->
+        <div class="frage">
+            <h3>😂 Was war heute lustig?</h3>
+            <textarea name="Was war heute lustig"
+                      placeholder="Erzähl mir..."></textarea>
+        </div>
+
+        <!-- Frage 5 -->
+        <div class="frage">
+            <h3>❤️ Was hat dich heute glücklich gemacht?</h3>
+            <textarea name="Was hat dich glücklich gemacht"
+                      placeholder="Deine Antwort..."></textarea>
+        </div>
+
+        <!-- Frage 6 -->
+        <div class="frage">
+            <h3>🌙 Was hast du heute noch vor?</h3>
+            <input type="text"
+                   name="Was hast du noch vor"
+                   placeholder="Deine Pläne...">
+        </div>
+
+        <!-- Frage 7 -->
+        <div class="frage">
+            <h3>💬 Gibt es etwas, das du mir erzählen möchtest?</h3>
+            <textarea name="Freie Nachricht"
+                      placeholder="Schreib hier..."></textarea>
+        </div>
+
+        <button type="submit">
+            📩 Antworten abschicken
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+```
